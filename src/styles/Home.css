@@ -1,0 +1,1007 @@
+/* Add this CSS to your component's style or a separate CSS file */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.pagecontaier {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-color: #a85aaf;
+  color: rgb(247, 241, 241);
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  background-color: #813588;
+  color: white;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 100px;
+  margin-top: 20px;
+}
+
+.first-container-text1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.first-container-text2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.first-container-text3 {
+  margin-left: 20px;
+  padding: 12px;
+  width: 240px;
+  text-align: center;
+  border-radius: 5px;
+  white-space: nowrap;
+  background-color: #611568;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background-color: #fffffff1;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 1px;
+  padding-top: 5px;
+  color: black;
+}
+
+.second-container-text1 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.first-container img {
+  margin-top: 40px;
+  max-width: 350px;
+  height: auto;
+}
+
+.second-container input {
+  width: 80%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.second-container button {
+  padding: 18px;
+  width: 80%;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.808);
+  border: none;
+  cursor: pointer;
+}
+
+.second-container a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.Choose-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Choose-heading-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.why-Choose-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.Choose-heading {
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(2, 2, 49);
+}
+
+.reason-container {
+  width: 30%;
+}
+
+.reason-container img {
+  width: 40%;
+  height: auto;
+}
+
+.reason-container-heading {
+  font-size: 25px;
+  font-weight: 800;
+  color: #813588;
+  margin: 10px;
+}
+
+.reason-container-text {
+  margin: 10px;
+  font-weight: 800;
+}
+
+.preparation-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.preparation-heading-container {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.preparation-banner-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.preparation-banner {
+  background-color: #813588;
+  margin: 10px;
+  height: 170px;
+  width: 370px;
+  border-radius: 5px;
+}
+
+.preparation-banner-text-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 10px;
+}
+
+.preparation-banner-text-container h1 {
+  padding-top: 15px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.preparation-banner-text-container p {
+  font-size: 15px;
+  margin-top: 5px;
+  height: 35px;
+}
+
+.explore-link {
+  color: white;
+  margin-top: 50px; /* Adjust the value as needed */
+  text-decoration: none;
+  font-weight: 900;
+  color: #ef6c00;
+}
+
+.Exam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: auto; /* Center the container */
+}
+
+.Exam-heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  width: 95%;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tab::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Set the color of the scrollbar handle */
+.tab::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 50px;
+}
+
+/* Set the color of the scrollbar track */
+.tab::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: inline-block;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 46px;
+  border-radius: 80px;
+  transition: 0.3s;
+  background-color: #f1f1f1;
+  margin-left: 10px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ef6c00;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  width: 90%;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+#Upcoming,
+#Banking,
+#SSC,
+#Teaching,
+#GATE,
+#AE, 
+#IPM,
+#NRA,
+#UPSC {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.Upcoming {
+  display: flex;
+  border: 1px solid rgb(121, 110, 110);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Specify the box shadow properties */
+  padding: 15px 10px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.Upcoming:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Specify the box shadow properties */
+  color: #ef6c00;
+}
+
+.Upcoming p {
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.other-links-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.links-container {
+  display: flex;
+}
+
+.links-box1,
+.links-box2,
+.links-box3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.links-box2,
+.links-box3 {
+  margin-left: 60px;
+}
+
+.links {
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #ef6c00;
+}
+
+.content-container {
+  display: flex;
+  background-color: aqua;
+}
+.subjects-container {
+  background-color: red;
+  padding: 20px;
+  height: 300px;
+}
+
+.content-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.content-button-container button {
+  width: 150px;
+  background-color: blue;
+  border-radius: 50px;
+  white-space: nowrap;
+  color: black;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contentlinks.active {
+  background-color: red;
+}
+
+.subjects-container {
+  width: 80%;
+}
+
+.subjects {
+  display: none;
+}
+
+.subjects img {
+  width: 20%;
+  height: auto;
+}
+
+.Numbers-container {
+  text-align: center;
+  background-color: rgba(71, 0, 99, 0.925);
+  color: white;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.attempt-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Students-container {
+  display: flex;
+  justify-content: center;
+}
+
+.attempt {
+  width: 40%;
+  height: auto;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.Students-container {
+  margin: 0;
+  padding: 0;
+}
+
+#cr {
+  margin: 0;
+  padding: 0;
+  color: rgba(250, 250, 10, 0.959);
+}
+
+#Registered {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.attemptp1 {
+  color: rgb(76, 76, 187);
+}
+
+.attemptp2 {
+  color: rgb(76, 187, 76);
+}
+
+.attemptp3 {
+  color: rgb(187, 76, 76);
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 60px;
+}
+
+.applogo {
+  width: 30%;
+  height: auto;
+}
+
+.applogo-container {
+  display: flex;
+  margin: 10px;
+}
+
+.appinfo {
+  margin-left: 80px;
+}
+
+.appinfo p {
+  padding-top: 90px;
+  width: 95%;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.appinfo h3 {
+  width: 80%;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.appinfo h4 {
+  width: 80%;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.appinfo input {
+  width: 61%;
+  font-size: 20px;
+  padding: 15px 10px;
+  margin-left: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  outline: none;
+  font-size: 15px;
+  border: none;
+  background-color: #fff;
+}
+
+.appinfo button {
+  width: 41%;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-left: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #cf8181;
+}
+
+.playstor-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#playstor {
+  width: 20%;
+  margin-left: 20px;
+}
+
+.paragraph-container {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.offer-tab-container {
+  position: relative;
+  padding: 10px;
+}
+
+.offer-tab-container h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
+
+.offer-tab {
+  width: 95%;
+  height: auto;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+}
+
+.offer-tab-content {
+  display: flex;
+}
+
+.offer-tab-content span {
+  border: 1px solid black;
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.tab-buttons {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 98%;
+  z-index: 1; /* Ensure buttons appear above the content */
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  padding: 10px 13px;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+  margin: 0 5px;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 30px;
+}
+
+.prev {
+  position: absolute;
+  left: 1px;
+}
+
+.next:hover {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+
+.prev:hover {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+
+.offer-img-container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.offer-img-container img {
+  border-radius: 100%;
+  width: 15%;
+  height: auto;
+  margin-left: 5px;
+}
+
+.offer-img-container h4 {
+  margin-left: 10px;
+}
+
+.offercontent-p2 {
+  white-space: wrap;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+}
+
+.offercontent-p3 {
+  white-space: wrap;
+  overflow-y: auto; /* Add this line to enable vertical scrollbar */
+  max-height: 100px; /* Set a maximum height to trigger the scrollbar */
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 900px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .pagecontaier {
+    font-size: 10px;
+  }
+
+  /* Add this CSS to your component's style or a separate CSS file */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-top: 50px;
+    margin-top: 20px;
+  }
+
+  .first-container h3 {
+    width: 90%;
+  }
+
+  .second-container {
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .first-container-text1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .first-container-text2 {
+    padding-top: 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .first-container-text3 {
+    text-align: center;
+    width: 240px;
+    font-size: 12px;
+  }
+
+  .first-container img {
+    margin-top: 40px;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .second-container-text1 {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .second-container-text2 {
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .Choose-heading {
+    font-size: 15px;
+  }
+
+  .reason-container img {
+    width: 70%;
+    height: auto;
+  }
+
+  .reason-container-heading {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .reason-container-text {
+    display: none;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preparation-banner {
+    width: 90%;
+  }
+
+  .Exam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto; /* Center the container */
+  }
+
+  .Exam-heading {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    width: 95%;
+    padding: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent button wrapping to the next line */
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    padding: 6px 16px;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ef6c00;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  #London,
+  #Paris,
+  #Tokyo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Upcoming {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 1px;
+    white-space: nowrap;
+  }
+
+  .Upcoming img {
+    width: 50%;
+    height: auto;
+  }
+
+  .Upcoming p {
+    font-size: 12px;
+    margin-left: 1px;
+  }
+
+  .Upcoming:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Specify the box shadow properties */
+    color: black;
+  }
+
+  .other-links-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .links-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+
+  .links-box2,
+  .links-box3 {
+    margin-left: 0;
+  }
+
+  .links-box3 {
+    margin-top: 20px;
+  }
+
+  .links {
+    font-size: 12px;
+  }
+
+  .attempt-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .Students-container {
+    font-size: 10px;
+  }
+
+  #Speak {
+    font-size: 16px;
+  }
+
+  .attempt {
+    width: 40%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 12px 10px;
+    text-align: center;
+  }
+
+  .attempt {
+    font-size: 10px;
+  }
+
+  .App-container {
+    padding: 10px;
+  }
+
+  .applogo-container {
+    margin: 5px;
+  }
+
+  .applogo {
+    width: 150px;
+    height: 160px;
+  }
+
+  .appinfo {
+    padding-top: 1px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .appinfo p {
+    padding-top: 1px;
+    width: 90%;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 5px;
+  }
+
+  .appinfo h3 {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .appinfo h4 {
+    width: 90%;
+    font-size: 7px;
+    margin-top: 10px;
+  }
+
+  .appinfo input {
+    width: 40%;
+    font-size: 5px;
+    padding: 6px 6px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+  }
+
+  .appinfo button {
+    width: 40%;
+    font-size: 6px;
+    padding: 5px 5px;
+  }
+
+  .playstor-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  #playstor {
+    width: 20%;
+    margin-left: 10px;
+  }
+
+  .paragraph-container {
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .offer-tab-container h1 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .offer-tab {
+    overflow-x: auto;
+    /* Add this line to enable horizontal scrollbar */
+  }
+
+  .offercontent-p3 {
+    max-height: 70px;
+    /* Set a maximum height to trigger the scrollbar */
+  }
+
+  .offer-img-container img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .offer-tab-content span {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+
+  .tab-buttons {
+    display: none;
+  }
+
+  .offer-img-container h4 {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .offercontent-p2 {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .offercontent-p3 {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .tab::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  /* Set the color of the scrollbar handle */
+  .tab::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 50px;
+  }
+}
