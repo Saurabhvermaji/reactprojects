@@ -6,6 +6,7 @@ const FAQ = () => {
     return (
         <>
             <div className="pagecontaier">
+                
                 <h1>This is FAQ Page</h1>
             </div>
         </>
