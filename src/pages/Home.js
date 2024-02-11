@@ -206,7 +206,7 @@ const Home = () => {
             {" "}
             Banking{" "}
           </button>
-          
+
           <button className="tablinks" onClick={(e) => openCity(e, "SSC")}>
             {" "}
             SSC
@@ -215,11 +215,6 @@ const Home = () => {
           <button className="tablinks" onClick={(e) => openCity(e, "Teaching")}>
             {" "}
             Teaching
-          </button>
-
-          <button className="tablinks" onClick={(e) => openCity(e, "GATE")}>
-            {" "}
-            GATE
           </button>
 
           <button className="tablinks" onClick={(e) => openCity(e, "AE")}>
@@ -281,144 +276,126 @@ const Home = () => {
         <div id="Banking" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2018/6/all-banking-exam-img1529910452948-13.png-rs-high-webp.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>Bank Exams</p>
           </div>
 
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2018/12/custom-preset-copy-img1543836258785-55.png-rs-high-webp.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>ESIC UDC</p>
+          </div>
+
+          <div className="Upcoming">
+            <img
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2020/6/sbi_logo-img1592387227056-32-rs.png"
+              alt=""
+            ></img>
+            <p>SBI Clerk</p>
           </div>
         </div>
 
         <div id="SSC" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2018/6/ssc-img1529910608753-38.png-rs-high-webp.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>SSC Exams</p>
           </div>
 
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2016/8/img1470917301523-57-rs.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>SSC CGL</p>
           </div>
         </div>
 
         <div id="Teaching" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1474538848229-84.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>NVS</p>
           </div>
 
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1464850251602-80.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
-          </div>
-        </div>
-
-        <div id="GATE" className="tabcontent">
-          <div className="Upcoming">
-            <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
-              alt=""
-            ></img>
-            <p>ibps-clerk</p>
-          </div>
-
-          <div className="Upcoming">
-            <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
-              alt=""
-            ></img>
-            <p>ibps-clerk</p>
+            <p>UP TET</p>
           </div>
         </div>
 
         <div id="AE" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2016/8/img1470917614709-57-rs.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>RRB JE</p>
           </div>
 
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/2021/8/img1630064016983-87.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>DDA CE</p>
+          </div>
+
+          <div className="Upcoming">
+            <img
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2021/6/getco-logo-img1623392798552-66.png-rs-high-webp.png"
+              alt=""
+            ></img>
+            <p>GET CO</p>
           </div>
         </div>
 
         <div id="IPM" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2020/11/set-exam-img1604404764817-95.jpg-rs-high-webp.jpg"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>SET</p>
           </div>
 
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2021/12/nracet-icon-img1638772250164-79.webp-rs-high-webp.webp"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
+            <p>CUET</p>
           </div>
         </div>
 
         <div id="NRA" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2021/12/nracet-icon-img1638772250164-79.webp-rs-high-webp.webp"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
-          </div>
-
-          <div className="Upcoming">
-            <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
-              alt=""
-            ></img>
-            <p>ibps-clerk</p>
+            <p>NRA</p>
           </div>
         </div>
 
         <div id="UPSC" className="tabcontent">
           <div className="Upcoming">
             <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
+              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2018/6/upsc-img1529910949203-72.png-rs-high-webp.png"
               alt=""
             ></img>
-            <p>ibps-clerk</p>
-          </div>
-
-          <div className="Upcoming">
-            <img
-              src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-groups-images.grdp.co/grpimg1470818818206-18.png"
-              alt=""
-            ></img>
-            <p>ibps-clerk</p>
+            <p>UPSC</p>
           </div>
         </div>
       </div>
@@ -486,7 +463,7 @@ const Home = () => {
               onClick={handleLoginClick}
               className="links"
             >
-            SBI Clerk Syllabus
+              SBI Clerk Syllabus
             </Link>
             <Link
               to="#"
