@@ -375,6 +375,7 @@ const Home = () => {
               src="https://grdp.co/cdn-cgi/image/width=48,height=48,quality=80,fit=cover,f=auto/https://gs-post-images.grdp.co/2021/12/nracet-icon-img1638772250164-79.webp-rs-high-webp.webp"
               alt=""
             ></img>
+            
             <p>CUET</p>
           </div>
         </div>
